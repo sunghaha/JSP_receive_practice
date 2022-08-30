@@ -2,17 +2,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>slisp</title>
+<title>es</title>
 <link rel="shortcut icon" href="#">
 </head>
 <body>
 <label>
 	입력 <input type="text" name="test" form="frm01">
 </label>
-<button type="button" onclick="fn()">전송</button>
+<button type="button" onclick="fndata()">전송</button>
 <form action="/receive.jsp" id="frm01"></form>
 <script>
-	function fn(){
+	function fndata(){
 		document.querySelector("#frm01").submit();
 	}
 </script>
